@@ -1,0 +1,7 @@
+{{name}}
+<h1>{{ name.name_text }}</h1>
+<ul>
+{% for name in name.skill_set.all %}
+    <li>{{ skill.skill }}</li>
+{% endfor %}
+</ul>
